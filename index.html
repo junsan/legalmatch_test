@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>LegalMatch</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        
+        <!-- @todo: fill with your company info or remove -->
+        <meta name="description" content="">
+        <meta name="author" content="Exam">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        
+        <link href="css/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <style type="text/css">
+        div.container {
+            margin-top: 20px;
+        }
+        div#header ul.header-text {
+            list-style-image: url('images/li-style-check.png');
+            font-weight: 400;
+            float: right;
+        }
+        div#content {
+            background-image: url('images/background.jpg');
+        }
+        body {
+            font-size: 13px !important;
+        }
+        .clear {
+            clear: both;
+        }
+        div.reviewer p {
+            font-style: italic;
+        }
+        div.reviewer span.reviewer_name, div.reviewer span.reviewer_location {
+            display: block;
+        }
+        div.reviewer span.reviewer_name {
+            font-weight: 400px;
+        }
+        div.reviewer-photo {
+            text-align: center;
+        }
+        div.reviewer a.read_review {
+            float: right;
+            color: #FBBC05;
+        }
+        div#footer {
+            margin-top: 40px;
+            padding-bottom: 40px;
+        }
+        div#footer div.footer-nav {
+            margin-left: 40px;
+            text-align: center;
+        }
+        div#footer div.footer-nav ul {
+            list-style: none;
+            margin-left: 150px;
+        }
+        div#footer div.footer-nav ul li {
+            float: left;
+            margin-right: 40px;
+        }
+        div#footer div.footer-nav p {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        div#footer div.footer-nav p span.copyright {
+            display: block;
+        }
+    </style>
+    </head>
+<body>
+</body>
+
+        <!-- ======== #header ======== -->
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="Legal Match" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="header-text">
+                            <li>No fee to present your case</li>
+                            <li>Choose from lawyers in your area</li>
+                            <li>A 100% confidential service</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ======== #content ======== -->
+        <div id="content" style="padding-bottom: 40px;">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-12" style="margin-bottom: 20px;">
+                             <h1>Find a Lawyer for your Legal Issue</h1>
+                             <h4>Fast, Free and Confindential</h4>
+                        </div>
+                        <div class="col-md-5" style="margin-top: 20px;">
+                                <label>Enter Zip Code or City:</label>
+                                <input class="form-control" name="zip" />
+                                <br>
+                                <label>Choose a category:</label>
+                                <select class="form-control" name="categories">
+                                    <option></option>
+                                </select>
+                                <br>
+                                <div>
+                                    <span>Can't find your category?</span> <a href="#" data-featherlight="#other_categories">Click here</a>
+                                </div>    
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                        <div class="col-md-6">
+                            <h4 style="margin-bottom: 40px;">Clients review LegalMatch lawyers</h4>
+                            <div class="row reviewer">
+                                <div class="col-md-3 reviewer-photo">
+                                    <img src="images/photo03.png" />
+                                    <span class="reviewer_name">Mitchel M.</span>
+                                    <span class="reviewer_location">Cherry Hill, NJ</span>
+                                </div>
+                                <div class="col-md-9">
+                                    <h6>Family Law</h6>
+                                    <p style="font-style: italic;">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d  consectetur adipiscing elit, sed d</p>
+                                    <a href="#" class="read_review" data-featherlight="#read_review">Read Review</a>
+                                </div>
+                                <div class="col-md-3 reviewer-photo">
+                                    <img src="images/photo03.png" />
+                                    <span class="reviewer_name">J.C.</span>
+                                    <span class="reviewer_location">Little Rock, AR</span>
+                                </div>
+                                <div class="col-md-9">
+                                    <h6>Job & Employment Law</h6>
+                                    <p>"He is the kind of lawyer who whould sit down and explain things on how things works in legal matter but he is..."</p>
+                                    <a href="#" class="read_review" data-featherlight="#read_review">Read Review</a>
+                                </div>
+                                <div class="col-md-3 reviewer-photo">
+                                    <img src="images/photo03.png" />
+                                    <span class="reviewer_name">Brigida R.</span>
+                                    <span class="reviewer_location">Dallas, TX</span>
+                                </div>
+                                <div class="col-md-9">
+                                    <h6>Family Law</h6>
+                                    <p>"My initial feeling after speaking to Brigida was of relief, because I knew she was going to be the right lawy..."</p>
+                                    <a href="#" class="read_review" data-featherlight="#read_review">Read Review</a>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <!-- ======== #footer ======== -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="footer-logo">
+                            <img src="images/logo-footer.png" alt="Legal Match, Find The Right Lawyer Now"/>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="footer-nav">
+                            <ul>
+                                <li><a href="#">User Agreement</a></li> 
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Site Map</a></li>
+                            </ul>
+                            <br class="clear">
+                            <p>
+                                <span class="copyright">Copyright 1999-2016 LegalMatch. All rights reserved. LegalMatch</span>
+                                <span class="copyright">the LegalMactch logo and the tradedress are trademarks of LegalMatch Patents Pending</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="footer-logo">
+                            <img src="images/logo-truste.png" alt="Legal Match, Find The Right Lawyer Now"/>
+                            <img src="images/logo-BBB.png" alt="Legal Match, Find The Right Lawyer Now"/>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>    
+        <div id="read_review">
+            <div style="">
+                <img src="images/popup-review.jpg" />
+            </div>
+        </div>
+        <div id="other_categories">
+            <div style="">
+                <img src="images/popup-othercategories.jpg" />
+            </div>
+        </div>
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>    
+</body>
+</html>
